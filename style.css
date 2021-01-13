@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100%;
+  display: flex;
+}
+
+.col1 {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  width: 50vw;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.row1 {
+  height: 50vh;
+  /* display: flex; */
+}
+.row2 {
+  height: 50vh;
+}
+h2 {
+  font-family: "Syncopate", sans-serif;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: color 1.5s;
+  position: relative;
+  animation: fadein 5s;
+}
+h2:hover {
+  color: #2596be;
+}
+.row1 img {
+  align-content: center;
+  border-radius: 50%;
+  max-width: 200px;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  animation: fadein 3s;
+}
+h5 {
+  text-align: center;
+  margin: 10px;
+  font-family: "Bad Script", cursive;
+  animation: fadein 10s;
+  font-size: large;
+}
+
+.links {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  animation: fadein 15s;
+}
+
+.fab {
+  color: black;
+  margin: 10px;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.col2 {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.headings {
+  position: absolute;
+  display: flex;
+  top: 10px;
+
+  margin: auto;
+}
+
+.col2 div {
+  margin: 20px;
+}
+h3 {
+  font-family: "Syncopate", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  transition: color 0.5s;
+}
+
+h3:hover {
+  color: #2596be;
+  cursor: pointer;
+}
+#desc {
+  display: block;
+}
+
+#desc p {
+  align-content: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-left: 50px;
+  font-family: "Bad Script", cursive;
+}
+
+#desc div {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-left: 50px;
+  font-family: "Bad Script", cursive;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    display: block;
+  }
+  .headings {
+    position: relative;
+    display: block;
+  }
+}
+
+.fas {
+  color: black;
+  margin: 10px;
+}
+
+.far {
+  color: black;
+  margin: 10px;
+}
